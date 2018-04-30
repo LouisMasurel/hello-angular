@@ -1,0 +1,10 @@
+<ul>
+  <li *ngFor="let oneAnimal of animals">
+    <h2>{{oneAnimal.name}}</h2>
+    <p>{{oneAnimal.species}}</p>
+  </li>
+</ul>
+
+<p *ngIf="animals.length > 4">
+  Wow! Lot's of animals!
+</p>
